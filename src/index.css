@@ -1,0 +1,39 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  @apply bg-ink-50 text-ink-900 font-sans antialiased dark:bg-ink-950 dark:text-ink-100;
+}
+
+::selection {
+  @apply bg-brand-100 text-brand-700;
+}
+
+/* Reusable, hand-rolled utility classes kept small and composable on purpose */
+@layer components {
+  .card {
+    @apply rounded-xl2 border border-ink-200 bg-white shadow-card dark:border-ink-900 dark:bg-ink-900/40;
+  }
+
+  .input-base {
+    @apply w-full rounded-lg border border-ink-200 bg-white px-3 py-2 text-sm text-ink-900 placeholder:text-ink-500
+      focus:border-brand-500 focus:outline-none focus:ring-2 focus:ring-brand-100
+      dark:border-ink-700 dark:bg-ink-900 dark:text-ink-100 dark:focus:ring-brand-700/30;
+  }
+
+  .link-quiet {
+    @apply text-brand-600 hover:underline dark:text-brand-500;
+  }
+}
+
+.line-clamp-3 {
+  display: -webkit-box;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
