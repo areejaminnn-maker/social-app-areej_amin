@@ -4,7 +4,7 @@ A Facebook-inspired social feed, built frontend-only in React — sign up, post,
 
 ## Live demo
 
-> Add your deployed link here after publishing to Vercel or Netlify, e.g. `https://social-app-your-name.vercel.app`
+   https://social-app-opal-five.vercel.app
 
 ## Screenshots
 
