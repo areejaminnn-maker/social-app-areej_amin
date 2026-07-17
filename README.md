@@ -8,14 +8,10 @@ A Facebook-inspired social feed, built frontend-only in React — sign up, post,
 
 ## Screenshots
 
-
->
-> ```md
-> ![Feed](./assets/feed.png)
-> ![Create Post](./src/assets/create_post.png)
-> ![Profile](./src/assets/profile.png)
-> ![Dashboard](./src/assets/postp-dashboard.png/)
-> ```
+![Feed](./src/assets/feed.png)
+![Create Post](./src/assets/create_post.png)
+![Profile](./src/assets/profile.png)
+![Dashboard](./src/assets/postp-dashboard.png)
 
 ## Tech stack
 
